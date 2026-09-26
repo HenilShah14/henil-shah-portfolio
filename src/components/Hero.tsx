@@ -16,7 +16,7 @@ export default function Hero() {
   const [titleIndex, setTitleIndex] = useState(0);
 
   // Static profile photo — fixed asset, no upload/cache logic
-  const photoSrc = '/henil-profile.png';
+  const photoSrc = `${import.meta.env.BASE_URL}henil-profile.png`;
 
   // Subtle title cycler
   useEffect(() => {

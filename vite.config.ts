@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig(() => {
   return {
+    base: '/henil-shah-portfolio/',
     plugins: [
       react(),
       tailwindcss(),
