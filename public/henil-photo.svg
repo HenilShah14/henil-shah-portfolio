@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <!-- Background Office Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D6DEE7"/>
+      <stop offset="50%" stop-color="#BAC7D5"/>
+      <stop offset="100%" stop-color="#8FA3B7"/>
+    </linearGradient>
+    <linearGradient id="warmLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD9A0" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFB347" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="shelfGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A2C23"/>
+      <stop offset="100%" stop-color="#221A15"/>
+    </linearGradient>
+    <!-- Skin Tones -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D9A07A"/>
+      <stop offset="50%" stop-color="#C88E67"/>
+      <stop offset="100%" stop-color="#B57753"/>
+    </linearGradient>
+    <linearGradient id="skinShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9F6140"/>
+      <stop offset="100%" stop-color="#7D492F"/>
+    </linearGradient>
+    <!-- Suit Fabric -->
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F232B"/>
+      <stop offset="50%" stop-color="#15181F"/>
+      <stop offset="100%" stop-color="#0C0E13"/>
+    </linearGradient>
+    <!-- Tie Gradient -->
+    <linearGradient id="tieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#214A7A"/>
+      <stop offset="50%" stop-color="#19375C"/>
+      <stop offset="100%" stop-color="#11253E"/>
+    </linearGradient>
+    <!-- Hair Gradient -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#242022"/>
+      <stop offset="50%" stop-color="#171315"/>
+      <stop offset="100%" stop-color="#0B090A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Environment -->
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+  
+  <!-- Modern window panels & warm interior bookshelf -->
+  <rect x="0" y="0" width="340" height="800" fill="#C2CFDB" opacity="0.6"/>
+  <rect x="330" y="0" width="15" height="800" fill="#4A5568" opacity="0.4"/>
+  
+  <!-- Office Bookshelf with warm illumination -->
+  <rect x="580" y="0" width="220" height="800" fill="url(#shelfGrad)"/>
+  <rect x="595" y="120" width="190" height="20" fill="url(#warmLight)"/>
+  <rect x="595" y="140" width="190" height="160" fill="#1B1410" opacity="0.7"/>
+  <!-- Books on shelf -->
+  <rect x="610" y="170" width="22" height="130" fill="#D9E2EC"/>
+  <rect x="635" y="175" width="20" height="125" fill="#334E68"/>
+  <rect x="658" y="165" width="25" height="135" fill="#102A43"/>
+  <rect x="686" y="180" width="18" height="120" fill="#F0B429"/>
+  <!-- Potted plant on top shelf -->
+  <rect x="630" y="60" width="50" height="55" rx="6" fill="#F7FAFC"/>
+  <circle cx="640" cy="45" r="24" fill="#2F855A"/>
+  <circle cx="665" cy="40" r="28" fill="#38A169"/>
+  <circle cx="650" cy="28" r="20" fill="#48BB78"/>
+
+  <!-- High-back Ergonomic Mesh Chair behind Henil -->
+  <path d="M270 280 Q400 240 530 280 L520 540 Q400 550 280 540 Z" fill="#1A202C"/>
+  <path d="M290 300 Q400 270 510 300 L500 520 Q400 530 300 520 Z" fill="#2D3748" opacity="0.8"/>
+
+  <!-- Shoulders & Suit Jacket -->
+  <path d="M130 800 L220 520 Q290 440 400 440 Q510 440 580 520 L670 800 Z" fill="url(#suitGrad)"/>
+  
+  <!-- Suit Lapels -->
+  <path d="M280 520 L370 730 L385 730 L340 490 Z" fill="#0F1116"/>
+  <path d="M520 520 L430 730 L415 730 L460 490 Z" fill="#0F1116"/>
+
+  <!-- White Collared Dress Shirt -->
+  <polygon points="360,450 440,450 425,580 375,580" fill="#FFFFFF"/>
+  <polygon points="340,450 380,550 400,470" fill="#F1F5F9"/>
+  <polygon points="460,450 420,550 400,470" fill="#E2E8F0"/>
+
+  <!-- Textured Navy Blue Necktie -->
+  <polygon points="388,485 412,485 422,535 378,535" fill="#1B3B60"/>
+  <polygon points="378,535 422,535 432,770 400,810 368,770" fill="url(#tieGrad)"/>
+  <!-- Subtle tie texture lines -->
+  <line x1="385" y1="550" x2="415" y2="550" stroke="#2A5585" stroke-width="2" opacity="0.5"/>
+  <line x1="380" y1="600" x2="420" y2="600" stroke="#2A5585" stroke-width="2" opacity="0.5"/>
+  <line x1="375" y1="650" x2="425" y2="650" stroke="#2A5585" stroke-width="2" opacity="0.5"/>
+
+  <!-- Neck -->
+  <polygon points="365,390 435,390 445,470 355,470" fill="url(#skinShadow)"/>
+  <polygon points="372,400 428,400 435,465 365,465" fill="url(#skinGrad)"/>
+
+  <!-- Head & Jaw -->
+  <path d="M295 240 Q290 350 325 410 Q365 470 400 470 Q435 470 475 410 Q510 350 505 240 Q500 130 400 130 Q300 130 295 240 Z" fill="url(#skinGrad)"/>
+
+  <!-- Ears -->
+  <ellipse cx="292" cy="270" rx="16" ry="30" fill="#BA7F58"/>
+  <ellipse cx="292" cy="270" rx="9" ry="18" fill="#9C613D"/>
+  <ellipse cx="508" cy="270" rx="16" ry="30" fill="#BA7F58"/>
+  <ellipse cx="508" cy="270" rx="9" ry="18" fill="#9C613D"/>
+
+  <!-- Hair - Neat Modern Volume & Texture -->
+  <path d="M285 240 Q280 140 340 100 Q400 70 470 95 Q520 120 515 220 Q500 170 450 150 Q410 145 350 170 Q300 190 285 240 Z" fill="url(#hairGrad)"/>
+  <!-- Hair front bangs swooping neatly to the right -->
+  <path d="M310 160 Q360 140 430 145 Q485 160 480 190 Q430 165 360 175 Q325 185 310 160 Z" fill="#1E1A1C"/>
+  <path d="M330 180 Q370 165 420 168 Q455 180 460 195 Q420 180 370 188 Q345 195 330 180 Z" fill="#282325"/>
+
+  <!-- Eyebrows (Strong, Neat) -->
+  <path d="M320 220 Q350 208 375 222" stroke="#151113" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M425 222 Q450 208 480 220" stroke="#151113" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes behind glasses -->
+  <ellipse cx="350" cy="250" rx="18" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="450" cy="250" rx="18" ry="12" fill="#FFFFFF"/>
+  <!-- Brown Irises -->
+  <circle cx="352" cy="250" r="9" fill="#422818"/>
+  <circle cx="448" cy="250" r="9" fill="#422818"/>
+  <!-- Pupils & Highlights -->
+  <circle cx="352" cy="250" r="5" fill="#111111"/>
+  <circle cx="448" cy="250" r="5" fill="#111111"/>
+  <circle cx="355" cy="247" r="2.5" fill="#FFFFFF"/>
+  <circle cx="451" cy="247" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Prominent Modern Black-Rimmed Glasses -->
+  <!-- Left Frame -->
+  <rect x="310" y="218" width="82" height="62" rx="14" fill="none" stroke="#111827" stroke-width="8"/>
+  <!-- Right Frame -->
+  <rect x="408" y="218" width="82" height="62" rx="14" fill="none" stroke="#111827" stroke-width="8"/>
+  <!-- Bridge & Temples -->
+  <path d="M392 238 Q400 234 408 238" stroke="#111827" stroke-width="7" fill="none"/>
+  <line x1="310" y1="232" x2="288" y2="245" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+  <line x1="490" y1="232" x2="512" y2="245" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+  <!-- Subtle glass glare reflection -->
+  <line x1="325" y1="230" x2="345" y2="265" stroke="#FFFFFF" stroke-width="2.5" opacity="0.35" stroke-linecap="round"/>
+  <line x1="425" y1="230" x2="445" y2="265" stroke="#FFFFFF" stroke-width="2.5" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M395 245 L391 305 Q394 318 400 318 Q406 318 409 305 L405 245" fill="none" stroke="#A56743" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M385 315 Q400 323 415 315" stroke="#8B4B28" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Neat Trimmed Mustache -->
+  <path d="M365 348 Q400 342 435 348 Q415 360 400 355 Q385 360 365 348 Z" fill="#1A1618" opacity="0.9"/>
+
+  <!-- Friendly Smile & Lips -->
+  <path d="M368 370 Q400 395 432 370" stroke="#8D4632" stroke-width="4" fill="#B05C43" stroke-linecap="round"/>
+  <!-- Subtle Chin Dimple / Shadow -->
+  <path d="M390 422 Q400 426 410 422" stroke="#935633" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Wristwatch & Hand on Desk in Foreground -->
+  <rect x="0" y="720" width="800" height="80" fill="#E2B888" opacity="0.85"/>
+  <!-- Watch Strap & Dial -->
+  <ellipse cx="360" cy="745" rx="24" ry="16" fill="#D97706" stroke="#1F2937" stroke-width="5"/>
+  <circle cx="360" cy="745" r="14" fill="#E5E7EB"/>
+  <line x1="360" y1="745" x2="360" y2="737" stroke="#111827" stroke-width="2"/>
+  <line x1="360" y1="745" x2="366" y2="745" stroke="#111827" stroke-width="2"/>
+
+  <!-- Sleek Laptop Corner on right -->
+  <polygon points="600,800 680,680 800,710 800,800" fill="#94A3B8" opacity="0.9"/>
+  <polygon points="605,800 682,685 795,713 795,800" fill="#CBD5E1" opacity="0.7"/>
+</svg>
